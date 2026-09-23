@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="111">
   <author>aaw3k</author>
-  <version>1.0.0.0</version>
+  <version>1.0.1.0</version>
 
   <title>
     <en>Ping System</en>
@@ -29,6 +29,10 @@ Controls:
 
 Important: display time is local. The same ping may disappear for one player but remain visible to a player using Continuous mode.
 
+Changelog Version 1.0.1.0:
+- Improved the full-screen map ping hint to show the middle mouse button
+- Fixed ping clicks opening the context box and new pings reordering map icons
+
 For more information or to report a bug, please visit GitHub (modnext/pingSystem).
 ]]></en>
     <de><![CDATA[
@@ -47,6 +51,10 @@ Steuerung:
 - Dieselbe Steuerung funktioniert auf der Vollbildkarte.
 
 Wichtig: Die Anzeigedauer gilt lokal. Derselbe Ping kann bei einem Spieler verschwinden, für einen Spieler im Modus Dauerhaft aber sichtbar bleiben.
+
+Änderungsprotokoll Version 1.0.1.0:
+- Die Ping-Hilfe auf der Vollbildkarte zeigt jetzt die mittlere Maustaste
+- Ping-Klicks öffnen kein Kontextfenster mehr und neue Pings ändern die Reihenfolge der Kartensymbole nicht mehr
 
 Weitere Informationen oder zum Melden eines Fehlers findest du auf GitHub (modnext/pingSystem).
 ]]></de>
@@ -67,6 +75,10 @@ Commandes :
 
 Important : la durée d’affichage est locale. Le même ping peut disparaître chez un joueur, mais rester visible pour un joueur utilisant le mode Continu.
 
+Journal des modifications version 1.0.1.0:
+- L'aide des pings sur la carte plein écran affiche désormais le bouton central de la souris
+- Cliquer sur un ping n'ouvre plus de fenêtre contextuelle et l'ajout d'un ping ne réorganise plus les icônes
+
 Pour plus d’informations ou pour signaler un bug, consultez GitHub (modnext/pingSystem).
 ]]></fr>
     <pl><![CDATA[
@@ -86,6 +98,10 @@ Sterowanie:
 
 Ważne: czas wyświetlania działa lokalnie. Ten sam ping może zniknąć u jednego gracza, ale pozostać widoczny w trybie Ciągłym.
 
+Lista zmian w wersji 1.0.1.0:
+- Ulepszono wskazówkę pingu na pełnej mapie, pokazując środkowy przycisk myszy
+- Kliknięcie pingu nie otwiera już okna kontekstowego, a jego dodanie nie zmienia kolejności ikon
+
 Więcej informacji lub zgłaszanie błędów znajdziesz na GitHub (modnext/pingSystem).
 ]]></pl>
     <ru><![CDATA[
@@ -104,6 +120,10 @@ Więcej informacji lub zgłaszanie błędów znajdziesz na GitHub (modnext/pingS
 - Те же элементы управления работают на полноэкранной карте.
 
 Важно: время отображения действует локально. Одна и та же метка может исчезнуть у одного игрока, но остаться видимой у игрока в режиме «Постоянно».
+
+Журнал изменений версии 1.0.1.0:
+- Подсказка меток на полноэкранной карте теперь показывает среднюю кнопку мыши
+- Нажатие на метку больше не открывает контекстное окно, а её добавление не меняет порядок значков
 
 Дополнительная информация и сообщения об ошибках доступны на GitHub (modnext/pingSystem).
 ]]></ru>

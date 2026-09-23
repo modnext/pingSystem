@@ -15,16 +15,30 @@ local function updatePingInputGlyph(mapFrame)
     return
   end
 
-  local isVisible = g_inputBinding ~= nil and g_inputBinding:getInputHelpMode() == GS_INPUT_HELP_MODE_KEYBOARD and InputAction.PING_SYSTEM_CREATE ~= nil
+  local isVisible = g_inputBinding ~= nil and g_inputBinding:getInputHelpMode() == GS_INPUT_HELP_MODE_KEYBOARD and InputAction.MOUSE_ALT_COMMAND3_BUTTON ~= nil
 
   mapFrame.pingSystemMapGlyph:setVisible(isVisible)
   mapFrame.pingSystemMapGlyphText:setVisible(isVisible)
 
   if isVisible then
-    mapFrame.pingSystemMapGlyph:setActions({ InputAction.PING_SYSTEM_CREATE }, nil, nil, true)
+    mapFrame.pingSystemMapGlyph:setActions({ InputAction.MOUSE_ALT_COMMAND3_BUTTON }, nil, nil, true)
   end
 
   mapFrame.buttonBox:invalidateLayout()
+end
+
+---Sets the map selection item based on hotspot
+-- @param table mapFrame Map frame object
+-- @param function superFunc Super function to call
+-- @param table hotspot Hotspot data
+-- @return any Result from super function
+-- @includeCode
+local function setMapSelectionItem(mapFrame, superFunc, hotspot)
+  if hotspot ~= nil and hotspot.isPingSystemHotspot == true then
+    hotspot = nil
+  end
+
+  return superFunc(mapFrame, hotspot)
 end
 
 ---Initializes ping system glyphs on frame open
@@ -50,3 +64,4 @@ end
 ---
 InGameMenuMapFrame.onFrameOpen = Utils.appendedFunction(InGameMenuMapFrame.onFrameOpen, onFrameOpen)
 InGameMenuMapFrame.updateInputGlyphs = Utils.appendedFunction(InGameMenuMapFrame.updateInputGlyphs, updatePingInputGlyph)
+InGameMenuMapFrame.setMapSelectionItem = Utils.overwrittenFunction(InGameMenuMapFrame.setMapSelectionItem, setMapSelectionItem)
