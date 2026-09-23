@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Opprett / fjern ping" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Opprett ping" />
+    <e k="action_removePing" v="Fjern ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Pingsystem" />
+    <e k="settings_pingDuration_title" v="Visningstid for ping" />
+    <e k="settings_pingDuration_tooltip" v="Angir hvor lenge ping er synlige for deg. I modusen Kontinuerlig skjules pingens markør i verden midlertidig når du nærmer deg, og vises igjen når du beveger deg bort. Dette er en lokal spillerinnstilling og synkroniseres ikke med serveren." />
+    <e k="settings_pingDuration_continuous" v="Kontinuerlig" />
+    <e k="settings_pingLimit_title" v="Ping per spiller" />
+    <e k="settings_pingLimit_tooltip" v="Angir maksimalt antall aktive ping per spiller. Når grensen nås, erstattes den eldste pingen. Bare verten kan endre denne innstillingen, og den lagres i det gjeldende spillet." />
+    <e k="settings_pingVisibility_title" v="Synlighet for ping" />
+    <e k="settings_pingVisibility_tooltip" v="Angir om ping bare er synlige for spillere på samme gård eller for spillere på alle gårder. Bare verten kan endre denne innstillingen, og den lagres i det gjeldende spillet." />
+    <e k="settings_pingVisibility_sameFarm" v="Kun samme gård" />
+    <e k="settings_pingVisibility_allFarms" v="Alle gårder" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Fant ingen overflate for pingen" />
+  </elements>
+</l10n>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Vytvořit / odstranit pingy" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Vytvořit ping" />
+    <e k="action_removePing" v="Odstranit ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Systém pingů" />
+    <e k="settings_pingDuration_title" v="Doba zobrazení pingu" />
+    <e k="settings_pingDuration_tooltip" v="Nastavuje, jak dlouho pro vás zůstanou pingy viditelné. V režimu Trvale se při přiblížení k pingu dočasně skryje jeho značka ve světě a po vzdálení se znovu objeví. Toto nastavení je místní pro daného hráče a nesynchronizuje se se serverem." />
+    <e k="settings_pingDuration_continuous" v="Trvale" />
+    <e k="settings_pingLimit_title" v="Pingy na hráče" />
+    <e k="settings_pingLimit_tooltip" v="Nastavuje maximální počet aktivních pingů na hráče. Po dosažení limitu se nahradí nejstarší ping. Toto nastavení může změnit pouze hostitel a ukládá se s aktuální uloženou hrou." />
+    <e k="settings_pingVisibility_title" v="Viditelnost pingů" />
+    <e k="settings_pingVisibility_tooltip" v="Nastavuje, zda jsou pingy viditelné pouze hráčům na stejné farmě, nebo hráčům na všech farmách. Toto nastavení může změnit pouze hostitel a ukládá se s aktuální uloženou hrou." />
+    <e k="settings_pingVisibility_sameFarm" v="Pouze stejná farma" />
+    <e k="settings_pingVisibility_allFarms" v="Všechny farmy" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Pro ping nebyl nalezen žádný povrch" />
+  </elements>
+</l10n>

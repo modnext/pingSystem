@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Criar / remover pings" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Criar ping" />
+    <e k="action_removePing" v="Remover ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Sistema de pings" />
+    <e k="settings_pingDuration_title" v="Tempo de apresentação do ping" />
+    <e k="settings_pingDuration_tooltip" v="Define durante quanto tempo os pings permanecem visíveis para ti. No modo Contínuo, aproximares-te de um ping oculta temporariamente o respetivo marcador no mundo, que volta a aparecer quando te afastas. Esta é uma definição local do jogador e não é sincronizada com o servidor." />
+    <e k="settings_pingDuration_continuous" v="Contínuo" />
+    <e k="settings_pingLimit_title" v="Pings por jogador" />
+    <e k="settings_pingLimit_tooltip" v="Define o número máximo de pings ativos por jogador. Quando o limite é atingido, o ping mais antigo é substituído. Apenas o anfitrião pode alterar esta definição; ela é guardada no jogo atual." />
+    <e k="settings_pingVisibility_title" v="Visibilidade dos pings" />
+    <e k="settings_pingVisibility_tooltip" v="Define se os pings são visíveis apenas para jogadores da mesma quinta ou para jogadores de todas as quintas. Apenas o anfitrião pode alterar esta definição; ela é guardada no jogo atual." />
+    <e k="settings_pingVisibility_sameFarm" v="Apenas a mesma quinta" />
+    <e k="settings_pingVisibility_allFarms" v="Todas as quintas" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Não foi encontrada nenhuma superfície para o ping" />
+  </elements>
+</l10n>

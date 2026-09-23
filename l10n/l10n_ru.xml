@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Создать / удалить метки" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Создать метку" />
+    <e k="action_removePing" v="Удалить метку" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Система меток" />
+    <e k="settings_pingDuration_title" v="Время отображения метки" />
+    <e k="settings_pingDuration_tooltip" v="Определяет, как долго метки остаются видимыми для вас. В режиме Постоянно приближение к метке временно скрывает её маркер в игровом мире, который снова появляется, когда вы отходите. Это локальная настройка игрока, она не синхронизируется с сервером." />
+    <e k="settings_pingDuration_continuous" v="Постоянно" />
+    <e k="settings_pingLimit_title" v="Меток на игрока" />
+    <e k="settings_pingLimit_tooltip" v="Определяет максимальное количество активных меток на игрока. При достижении лимита самая старая метка заменяется. Только хост может изменить эту настройку; она сохраняется в текущем сохранении." />
+    <e k="settings_pingVisibility_title" v="Видимость меток" />
+    <e k="settings_pingVisibility_tooltip" v="Определяет, видны ли метки только игрокам той же фермы или игрокам всех ферм. Только хост может изменить эту настройку; она сохраняется в текущем сохранении." />
+    <e k="settings_pingVisibility_sameFarm" v="Только та же ферма" />
+    <e k="settings_pingVisibility_allFarms" v="Все фермы" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Не найдена поверхность для метки" />
+  </elements>
+</l10n>

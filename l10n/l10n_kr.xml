@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="핑 생성 / 제거" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="핑 생성" />
+    <e k="action_removePing" v="핑 제거" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="핑 시스템" />
+    <e k="settings_pingDuration_title" v="핑 표시 시간" />
+    <e k="settings_pingDuration_tooltip" v="핑이 표시되는 시간을 설정합니다. 항상 표시 모드에서는 핑에 가까이 가면 월드 마커가 일시적으로 숨겨지고, 멀어지면 다시 나타납니다. 이 설정은 플레이어의 로컬 설정이며 서버와 동기화되지 않습니다." />
+    <e k="settings_pingDuration_continuous" v="항상 표시" />
+    <e k="settings_pingLimit_title" v="플레이어당 핑 수" />
+    <e k="settings_pingLimit_tooltip" v="플레이어당 활성 핑 최대 개수를 설정합니다. 한도에 도달하면 가장 오래된 핑이 교체됩니다. 이 설정은 호스트만 변경할 수 있으며 현재 저장 게임에 저장됩니다." />
+    <e k="settings_pingVisibility_title" v="핑 표시 범위" />
+    <e k="settings_pingVisibility_tooltip" v="핑을 같은 농장의 플레이어에게만 표시할지, 모든 농장의 플레이어에게 표시할지 설정합니다. 이 설정은 호스트만 변경할 수 있으며 현재 저장 게임에 저장됩니다." />
+    <e k="settings_pingVisibility_sameFarm" v="같은 농장만" />
+    <e k="settings_pingVisibility_allFarms" v="모든 농장" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="핑을 배치할 표면을 찾을 수 없습니다" />
+  </elements>
+</l10n>

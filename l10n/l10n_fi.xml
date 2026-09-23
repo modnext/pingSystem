@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Luo / poista pingit" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Luo ping" />
+    <e k="action_removePing" v="Poista ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Ping-järjestelmä" />
+    <e k="settings_pingDuration_title" v="Pingien näyttöaika" />
+    <e k="settings_pingDuration_tooltip" v="Määrittää, kuinka kauan pingit näkyvät sinulle. Jatkuva-tilassa pingin lähelle siirtyminen piilottaa sen maailmamerkin väliaikaisesti, ja merkki tulee uudelleen näkyviin, kun siirryt kauemmas. Tämä on pelaajakohtainen paikallinen asetus, eikä sitä synkronoida palvelimen kanssa." />
+    <e k="settings_pingDuration_continuous" v="Jatkuva" />
+    <e k="settings_pingLimit_title" v="Pingejä pelaajaa kohti" />
+    <e k="settings_pingLimit_tooltip" v="Määrittää aktiivisten pingien enimmäismäärän pelaajaa kohti. Kun raja saavutetaan, vanhin ping korvataan. Vain isäntä voi muuttaa asetusta, ja se tallennetaan nykyiseen pelitallennukseen." />
+    <e k="settings_pingVisibility_title" v="Pingien näkyvyys" />
+    <e k="settings_pingVisibility_tooltip" v="Määrittää, näkyvätkö pingit vain saman maatilan pelaajille vai kaikkien maatilojen pelaajille. Vain isäntä voi muuttaa asetusta, ja se tallennetaan nykyiseen pelitallennukseen." />
+    <e k="settings_pingVisibility_sameFarm" v="Vain sama maatila" />
+    <e k="settings_pingVisibility_allFarms" v="Kaikki maatilat" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Pingille ei löytynyt pintaa" />
+  </elements>
+</l10n>

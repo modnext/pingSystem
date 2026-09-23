@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="" />
+    <e k="action_removePing" v="" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="" />
+    <e k="settings_pingDuration_title" v="" />
+    <e k="settings_pingDuration_tooltip" v="" />
+    <e k="settings_pingDuration_continuous" v="" />
+    <e k="settings_pingLimit_title" v="" />
+    <e k="settings_pingLimit_tooltip" v="" />
+    <e k="settings_pingVisibility_title" v="" />
+    <e k="settings_pingVisibility_tooltip" v="" />
+    <e k="settings_pingVisibility_sameFarm" v="" />
+    <e k="settings_pingVisibility_allFarms" v="" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="" />
+  </elements>
+</l10n>

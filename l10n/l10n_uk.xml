@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Створити / видалити позначки" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Створити позначку" />
+    <e k="action_removePing" v="Видалити позначку" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Система позначок" />
+    <e k="settings_pingDuration_title" v="Час відображення позначки" />
+    <e k="settings_pingDuration_tooltip" v="Визначає, як довго позначки залишаються видимими для вас. У режимі Постійно наближення до позначки тимчасово приховує її маркер у світі, який знову з’являється, коли ви відходите. Це локальне налаштування гравця, яке не синхронізується із сервером." />
+    <e k="settings_pingDuration_continuous" v="Постійно" />
+    <e k="settings_pingLimit_title" v="Позначок на гравця" />
+    <e k="settings_pingLimit_tooltip" v="Визначає максимальну кількість активних позначок на одного гравця. Коли ліміт досягнуто, найстарішу позначку буде замінено. Лише хост може змінити це налаштування; воно зберігається в поточному збереженні." />
+    <e k="settings_pingVisibility_title" v="Видимість позначок" />
+    <e k="settings_pingVisibility_tooltip" v="Визначає, чи позначки видимі лише гравцям тієї самої ферми, чи гравцям усіх ферм. Лише хост може змінити це налаштування; воно зберігається в поточному збереженні." />
+    <e k="settings_pingVisibility_sameFarm" v="Лише та сама ферма" />
+    <e k="settings_pingVisibility_allFarms" v="Усі ферми" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Не знайдено поверхню для позначки" />
+  </elements>
+</l10n>

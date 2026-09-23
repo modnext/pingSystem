@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="111">
+  <author>aaw3k</author>
+  <version>1.0.0.0</version>
+
+  <title>
+    <en>Ping System</en>
+    <de>Ping-System</de>
+    <fr>Système De Ping</fr>
+    <pl>System Pingów</pl>
+    <ru>Система Меток</ru>
+  </title>
+
+  <description>
+    <en><![CDATA[
+Ping System lets you quickly mark a field, building, vehicle or any other location. Pings appear in the world, on the minimap and on the full-screen map for players allowed by the host's visibility setting. The mod also works in singleplayer, with local visibility settings for each player.
+
+Features:
+- World marker with distance, off-screen arrow and icons on both maps.
+- Host-controlled visibility for the same farm or all farms, with synchronization for joining players.
+- Local display time of 5–30 seconds or Continuous mode; approaching temporarily hides the world marker.
+- A savegame limit of 1–3 active pings per player, set by the host; the oldest ping is replaced.
+
+Controls:
+- Press the assigned button (Middle Mouse Button by default) to create a ping.
+- Hold the same button while pointing at a ping from your farm to remove it for everyone who can see it. You can also remove pings from other farm members.
+- Hold the same button away from pings to remove all your pings, including ones no longer visible on your screen.
+- The same controls work on the full-screen map.
+
+Important: display time is local. The same ping may disappear for one player but remain visible to a player using Continuous mode.
+
+For more information or to report a bug, please visit GitHub (modnext/pingSystem).
+]]></en>
+    <de><![CDATA[
+Ping-System ermöglicht es dir, schnell ein Feld, Gebäude, Fahrzeug oder einen beliebigen anderen Ort zu markieren. Pings werden in der Spielwelt, auf der Minikarte und auf der Vollbildkarte für Spieler angezeigt, die durch die Sichtbarkeitseinstellung des Hosts zugelassen sind. Die Mod funktioniert auch im Einzelspielermodus, wobei jeder Spieler seine lokale Sichtbarkeit selbst einstellt.
+
+Funktionen:
+- Weltmarkierung mit Entfernung, Pfeil für Markierungen außerhalb des Bildschirms und Symbolen auf beiden Karten.
+- Vom Host gesteuerte Sichtbarkeit für denselben Hof oder alle Höfe sowie Synchronisierung für beitretende Spieler.
+- Lokale Anzeigedauer von 5–30 Sekunden oder Modus Dauerhaft; beim Annähern wird die Weltmarkierung vorübergehend ausgeblendet.
+- Im Spielstand gespeichertes Limit von 1–3 aktiven Pings pro Spieler, das vom Host festgelegt wird; der älteste Ping wird ersetzt.
+
+Steuerung:
+- Drücke die zugewiesene Taste (standardmäßig die mittlere Maustaste), um einen Ping zu erstellen.
+- Halte dieselbe Taste gedrückt und ziele auf einen Ping deines Hofes, um ihn für alle zu entfernen. Das gilt auch für Pings anderer Hofmitglieder.
+- Halte dieselbe Taste abseits von Pings gedrückt, um alle deine Pings zu entfernen, auch wenn sie auf deinem Bildschirm nicht mehr sichtbar sind.
+- Dieselbe Steuerung funktioniert auf der Vollbildkarte.
+
+Wichtig: Die Anzeigedauer gilt lokal. Derselbe Ping kann bei einem Spieler verschwinden, für einen Spieler im Modus Dauerhaft aber sichtbar bleiben.
+
+Weitere Informationen oder zum Melden eines Fehlers findest du auf GitHub (modnext/pingSystem).
+]]></de>
+    <fr><![CDATA[
+Le Système de ping vous permet de marquer rapidement un champ, un bâtiment, un véhicule ou n’importe quel autre emplacement. Les pings apparaissent dans le monde, sur la mini-carte et sur la carte plein écran pour les joueurs autorisés par le réglage de visibilité de l’hôte. Le mod fonctionne également en solo, avec des réglages de visibilité locaux pour chaque joueur.
+
+Fonctionnalités :
+- Marqueur dans le monde avec distance, flèche hors écran et icônes sur les deux cartes.
+- Visibilité contrôlée par l’hôte pour la même ferme ou toutes les fermes, avec synchronisation pour les joueurs qui rejoignent la partie.
+- Durée d’affichage locale de 5 à 30 secondes ou mode Continu ; s’approcher masque temporairement le marqueur dans le monde.
+- Limite sauvegardée de 1 à 3 pings actifs par joueur, définie par l’hôte ; le ping le plus ancien est remplacé.
+
+Commandes :
+- Appuyez sur le bouton attribué (bouton central de la souris par défaut) pour créer un ping.
+- Maintenez le même bouton en visant un ping de votre ferme pour le supprimer pour tous les joueurs qui le voient. Cela fonctionne aussi avec les pings des autres membres.
+- Maintenez le même bouton loin des pings pour supprimer tous vos pings, même ceux qui ne sont plus visibles à l’écran.
+- Les mêmes commandes fonctionnent sur la carte plein écran.
+
+Important : la durée d’affichage est locale. Le même ping peut disparaître chez un joueur, mais rester visible pour un joueur utilisant le mode Continu.
+
+Pour plus d’informations ou pour signaler un bug, consultez GitHub (modnext/pingSystem).
+]]></fr>
+    <pl><![CDATA[
+System Pingów pozwala szybko oznaczyć pole, budynek, pojazd lub inne miejsce. Ping pojawia się w świecie, na minimapie i pełnej mapie u graczy wskazanych przez ustawienie widoczności hosta. Mod działa też w grze jednoosobowej, a każdy gracz ustawia widoczność pingów na swoim ekranie.
+
+Funkcje:
+- Marker w świecie z odległością, strzałką poza ekranem i ikonami na obu mapach.
+- Ustawiana przez hosta widoczność dla tej samej lub wszystkich farm oraz synchronizacja dla dołączających graczy.
+- Lokalny czas od 5 do 30 sekund albo tryb Ciągłym; podejście chwilowo ukrywa marker w świecie.
+- Zapisywany limit od 1 do 3 aktywnych pingów na gracza, ustawiany przez hosta; najstarszy ping zostaje zastąpiony.
+
+Sterowanie:
+- Naciśnij przypisany przycisk (domyślnie kółko myszy), aby utworzyć ping.
+- Przytrzymaj ten sam przycisk, wskazując ping swojej farmy, aby usunąć go u wszystkich graczy, którzy go widzą. Możesz też usuwać pingi innych członków farmy.
+- Przytrzymaj ten sam przycisk poza pingami, aby usunąć wszystkie swoje pingi, również niewidoczne już na Twoim ekranie.
+- To samo sterowanie działa na pełnej mapie.
+
+Ważne: czas wyświetlania działa lokalnie. Ten sam ping może zniknąć u jednego gracza, ale pozostać widoczny w trybie Ciągłym.
+
+Więcej informacji lub zgłaszanie błędów znajdziesz na GitHub (modnext/pingSystem).
+]]></pl>
+    <ru><![CDATA[
+Система меток позволяет быстро отметить поле, здание, транспортное средство или любое другое место. Метки отображаются в игровом мире, на мини-карте и полноэкранной карте у игроков, которым это разрешено настройкой видимости хоста. Мод также работает в одиночной игре, при этом каждый игрок использует собственные локальные настройки видимости.
+
+Возможности:
+- Метка в игровом мире с расстоянием, стрелкой за пределами экрана и значками на обеих картах.
+- Настраиваемая хостом видимость для той же фермы или всех ферм, а также синхронизация для присоединяющихся игроков.
+- Локальное время отображения от 5 до 30 секунд или режим «Постоянно»; при приближении метка в игровом мире временно скрывается.
+- Сохраняемый в игре лимит от 1 до 3 активных меток на игрока, задаваемый хостом; самая старая метка заменяется.
+
+Управление:
+- Нажмите назначенную кнопку (по умолчанию среднюю кнопку мыши), чтобы создать метку.
+- Удерживайте ту же кнопку, наведясь на метку своей фермы, чтобы удалить её у всех игроков, которые её видят. Можно также удалять метки других участников фермы.
+- Удерживайте ту же кнопку вдали от меток, чтобы удалить все свои метки, включая уже невидимые на вашем экране.
+- Те же элементы управления работают на полноэкранной карте.
+
+Важно: время отображения действует локально. Одна и та же метка может исчезнуть у одного игрока, но остаться видимой у игрока в режиме «Постоянно».
+
+Дополнительная информация и сообщения об ошибках доступны на GitHub (modnext/pingSystem).
+]]></ru>
+  </description>
+
+  <l10n filenamePrefix="l10n/l10n" />
+
+  <iconFilename>icon_pingSystem.png</iconFilename>
+  <multiplayer supported="true" />
+
+  <extraSourceFiles>
+    <sourceFile filename="scripts/PingSystem.lua" />
+  </extraSourceFiles>
+
+  <actions>
+    <action name="PING_SYSTEM_CREATE" axisType="HALF" displayCategory="PLAYER_INTERACTIVE" />
+  </actions>
+
+  <inputBinding>
+    <actionBinding action="PING_SYSTEM_CREATE">
+      <binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_MIDDLE" />
+    </actionBinding>
+  </inputBinding>
+</modDesc>

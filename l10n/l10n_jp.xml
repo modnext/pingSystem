@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="ピンを作成 / 削除" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="ピンを作成" />
+    <e k="action_removePing" v="ピンを削除" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="ピンシステム" />
+    <e k="settings_pingDuration_title" v="ピンの表示時間" />
+    <e k="settings_pingDuration_tooltip" v="ピンが自分に表示される時間を設定します。「常時」モードでは、ピンに近づくとワールドマーカーが一時的に非表示になり、離れると再び表示されます。この設定はプレイヤーごとのローカル設定で、サーバーとは同期されません。" />
+    <e k="settings_pingDuration_continuous" v="常時" />
+    <e k="settings_pingLimit_title" v="プレイヤーごとのピン数" />
+    <e k="settings_pingLimit_tooltip" v="プレイヤー1人あたりのアクティブなピンの最大数を設定します。上限に達すると、最も古いピンが置き換えられます。この設定を変更できるのはホストのみで、現在のセーブデータに保存されます。" />
+    <e k="settings_pingVisibility_title" v="ピンの表示範囲" />
+    <e k="settings_pingVisibility_tooltip" v="ピンを同じ農場のプレイヤーだけに表示するか、すべての農場のプレイヤーに表示するかを設定します。この設定を変更できるのはホストのみで、現在のセーブデータに保存されます。" />
+    <e k="settings_pingVisibility_sameFarm" v="同じ農場のみ" />
+    <e k="settings_pingVisibility_allFarms" v="すべての農場" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="ピンを配置できる表面が見つかりません" />
+  </elements>
+</l10n>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Créer / supprimer des pings" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Créer un ping" />
+    <e k="action_removePing" v="Supprimer le ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Système de ping" />
+    <e k="settings_pingDuration_title" v="Durée d’affichage du ping" />
+    <e k="settings_pingDuration_tooltip" v="Définit la durée pendant laquelle les pings restent visibles pour vous. En mode Continu, vous approcher d’un ping masque temporairement son marqueur dans le monde, qui réapparaît lorsque vous vous éloignez. Ce réglage est local au joueur et n’est pas synchronisé avec le serveur." />
+    <e k="settings_pingDuration_continuous" v="Continu" />
+    <e k="settings_pingLimit_title" v="Pings par joueur" />
+    <e k="settings_pingLimit_tooltip" v="Définit le nombre maximal de pings actifs par joueur. Lorsque la limite est atteinte, le ping le plus ancien est remplacé. Seul l’hôte peut modifier ce réglage; il est enregistré dans la partie sauvegardée actuelle." />
+    <e k="settings_pingVisibility_title" v="Visibilité des pings" />
+    <e k="settings_pingVisibility_tooltip" v="Définit si les pings sont visibles uniquement pour les joueurs de la même ferme ou pour les joueurs de toutes les fermes. Seul l’hôte peut modifier ce réglage; il est enregistré dans la partie sauvegardée actuelle." />
+    <e k="settings_pingVisibility_sameFarm" v="Même ferme uniquement" />
+    <e k="settings_pingVisibility_allFarms" v="Toutes les fermes" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Aucune surface trouvée pour le ping" />
+  </elements>
+</l10n>

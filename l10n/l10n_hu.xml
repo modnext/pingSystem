@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Pingek létrehozása / eltávolítása" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Ping létrehozása" />
+    <e k="action_removePing" v="Ping eltávolítása" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Pingrendszer" />
+    <e k="settings_pingDuration_title" v="Ping megjelenítési ideje" />
+    <e k="settings_pingDuration_tooltip" v="Beállítja, hogy a pingek mennyi ideig maradjanak láthatók számodra. Folyamatos módban a ping megközelítése ideiglenesen elrejti annak világbeli jelölőjét, amely ismét megjelenik, amikor eltávolodsz. Ez helyi játékosbeállítás, és nem szinkronizálódik a szerverrel." />
+    <e k="settings_pingDuration_continuous" v="Folyamatos" />
+    <e k="settings_pingLimit_title" v="Pingek játékosonként" />
+    <e k="settings_pingLimit_tooltip" v="Beállítja az aktív pingek játékosonkénti maximális számát. A korlát elérésekor a legrégebbi ping lecserélődik. Ezt a beállítást csak a házigazda módosíthatja; az aktuális mentés tárolja." />
+    <e k="settings_pingVisibility_title" v="Pingek láthatósága" />
+    <e k="settings_pingVisibility_tooltip" v="Beállítja, hogy a pingek csak az azonos gazdaságban lévő játékosok vagy minden gazdaság játékosai számára legyenek láthatók. Ezt a beállítást csak a házigazda módosíthatja; az aktuális mentés tárolja." />
+    <e k="settings_pingVisibility_sameFarm" v="Csak azonos gazdaság" />
+    <e k="settings_pingVisibility_allFarms" v="Összes gazdaság" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Nem található felület a pinghez" />
+  </elements>
+</l10n>

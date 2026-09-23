@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Tạo / Xóa Ping" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Tạo Ping" />
+    <e k="action_removePing" v="Xóa Ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Hệ thống Ping" />
+    <e k="settings_pingDuration_title" v="Thời gian hiển thị Ping" />
+    <e k="settings_pingDuration_tooltip" v="Đặt thời gian ping hiển thị đối với bạn. Ở chế độ Liên tục, khi đến gần một ping, dấu chỉ của ping đó trong thế giới sẽ tạm thời ẩn và xuất hiện lại khi bạn đi xa. Đây là cài đặt cục bộ của người chơi và không được đồng bộ với máy chủ." />
+    <e k="settings_pingDuration_continuous" v="Liên tục" />
+    <e k="settings_pingLimit_title" v="Số Ping mỗi Người chơi" />
+    <e k="settings_pingLimit_tooltip" v="Đặt số lượng ping đang hoạt động tối đa cho mỗi người chơi. Khi đạt giới hạn, ping cũ nhất sẽ được thay thế. Chỉ chủ phòng có thể thay đổi cài đặt này; cài đặt được lưu trong trò chơi hiện tại." />
+    <e k="settings_pingVisibility_title" v="Phạm vi hiển thị Ping" />
+    <e k="settings_pingVisibility_tooltip" v="Đặt ping chỉ hiển thị cho người chơi trong cùng trang trại hay cho người chơi ở tất cả trang trại. Chỉ chủ phòng có thể thay đổi cài đặt này; cài đặt được lưu trong trò chơi hiện tại." />
+    <e k="settings_pingVisibility_sameFarm" v="Chỉ cùng trang trại" />
+    <e k="settings_pingVisibility_allFarms" v="Tất cả trang trại" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Không tìm thấy bề mặt cho ping" />
+  </elements>
+</l10n>

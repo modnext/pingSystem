@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Buat / Hapus Ping" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Buat Ping" />
+    <e k="action_removePing" v="Hapus Ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Sistem Ping" />
+    <e k="settings_pingDuration_title" v="Durasi Tampilan Ping" />
+    <e k="settings_pingDuration_tooltip" v="Menentukan berapa lama ping tetap terlihat untuk Anda. Dalam mode Terus-menerus, mendekati ping akan menyembunyikan penanda dunianya untuk sementara, dan penanda akan muncul kembali setelah Anda menjauh. Ini adalah pengaturan lokal pemain dan tidak disinkronkan dengan server." />
+    <e k="settings_pingDuration_continuous" v="Terus-menerus" />
+    <e k="settings_pingLimit_title" v="Ping per Pemain" />
+    <e k="settings_pingLimit_tooltip" v="Menentukan jumlah maksimum ping aktif per pemain. Saat batas tercapai, ping terlama akan diganti. Hanya host yang dapat mengubah pengaturan ini; pengaturan disimpan dalam permainan saat ini." />
+    <e k="settings_pingVisibility_title" v="Visibilitas Ping" />
+    <e k="settings_pingVisibility_tooltip" v="Menentukan apakah ping hanya terlihat oleh pemain di pertanian yang sama atau oleh pemain di semua pertanian. Hanya host yang dapat mengubah pengaturan ini; pengaturan disimpan dalam permainan saat ini." />
+    <e k="settings_pingVisibility_sameFarm" v="Hanya pertanian yang sama" />
+    <e k="settings_pingVisibility_allFarms" v="Semua pertanian" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Permukaan untuk ping tidak ditemukan" />
+  </elements>
+</l10n>

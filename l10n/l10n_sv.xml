@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Skapa / ta bort pingar" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Skapa ping" />
+    <e k="action_removePing" v="Ta bort ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Pingsystem" />
+    <e k="settings_pingDuration_title" v="Visningstid för ping" />
+    <e k="settings_pingDuration_tooltip" v="Anger hur länge pingar förblir synliga för dig. I läget Kontinuerlig döljs pingens markör i världen tillfälligt när du närmar dig den och visas igen när du går bort. Detta är en lokal spelarinställning och synkroniseras inte med servern." />
+    <e k="settings_pingDuration_continuous" v="Kontinuerlig" />
+    <e k="settings_pingLimit_title" v="Pingar per spelare" />
+    <e k="settings_pingLimit_tooltip" v="Anger det maximala antalet aktiva pingar per spelare. När gränsen nås ersätts den äldsta pingen. Endast värden kan ändra den här inställningen, och den sparas i det aktuella spelet." />
+    <e k="settings_pingVisibility_title" v="Pingars synlighet" />
+    <e k="settings_pingVisibility_tooltip" v="Anger om pingar endast är synliga för spelare på samma gård eller för spelare på alla gårdar. Endast värden kan ändra den här inställningen, och den sparas i det aktuella spelet." />
+    <e k="settings_pingVisibility_sameFarm" v="Endast samma gård" />
+    <e k="settings_pingVisibility_allFarms" v="Alla gårdar" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Ingen yta hittades för pingen" />
+  </elements>
+</l10n>

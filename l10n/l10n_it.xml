@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Crea / rimuovi ping" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Crea ping" />
+    <e k="action_removePing" v="Rimuovi ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Sistema ping" />
+    <e k="settings_pingDuration_title" v="Durata visualizzazione ping" />
+    <e k="settings_pingDuration_tooltip" v="Imposta per quanto tempo i ping rimangono visibili. In modalità Continua, avvicinandoti a un ping il relativo indicatore nel mondo viene nascosto temporaneamente e riappare quando ti allontani. Questa è un'impostazione locale del giocatore e non viene sincronizzata con il server." />
+    <e k="settings_pingDuration_continuous" v="Continua" />
+    <e k="settings_pingLimit_title" v="Ping per giocatore" />
+    <e k="settings_pingLimit_tooltip" v="Imposta il numero massimo di ping attivi per giocatore. Quando viene raggiunto il limite, il ping meno recente viene sostituito. Solo l'host può modificare questa impostazione; viene salvata nella partita corrente." />
+    <e k="settings_pingVisibility_title" v="Visibilità dei ping" />
+    <e k="settings_pingVisibility_tooltip" v="Imposta se i ping sono visibili solo ai giocatori della stessa azienda o ai giocatori di tutte le aziende. Solo l'host può modificare questa impostazione; viene salvata nella partita corrente." />
+    <e k="settings_pingVisibility_sameFarm" v="Solo la stessa azienda" />
+    <e k="settings_pingVisibility_allFarms" v="Tutte le aziende" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Nessuna superficie trovata per il ping" />
+  </elements>
+</l10n>

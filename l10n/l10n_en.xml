@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Create / Remove Pings" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Create Ping" />
+    <e k="action_removePing" v="Remove Ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Ping System" />
+    <e k="settings_pingDuration_title" v="Ping Display Time" />
+    <e k="settings_pingDuration_tooltip" v="Sets how long pings remain visible for you. In Continuous mode, approaching a ping temporarily hides its world marker, which reappears after you move away. This is a local player setting and is not synchronized with the server." />
+    <e k="settings_pingDuration_continuous" v="Continuous" />
+    <e k="settings_pingLimit_title" v="Pings Per Player" />
+    <e k="settings_pingLimit_tooltip" v="Sets the maximum number of active pings per player. When the limit is reached, the oldest ping is replaced. Only the host can change this setting; it is stored with the current savegame." />
+    <e k="settings_pingVisibility_title" v="Ping Visibility" />
+    <e k="settings_pingVisibility_tooltip" v="Sets whether pings are visible only to players on the same farm or to players on every farm. Only the host can change this setting; it is stored with the current savegame." />
+    <e k="settings_pingVisibility_sameFarm" v="Same farm only" />
+    <e k="settings_pingVisibility_allFarms" v="All farms" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="No surface found for the ping" />
+  </elements>
+</l10n>

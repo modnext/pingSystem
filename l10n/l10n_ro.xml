@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Creează / elimină pinguri" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Creează ping" />
+    <e k="action_removePing" v="Elimină ping" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Sistem de pinguri" />
+    <e k="settings_pingDuration_title" v="Durata afișării pingului" />
+    <e k="settings_pingDuration_tooltip" v="Setează cât timp rămân pingurile vizibile pentru tine. În modul Continuu, apropierea de un ping ascunde temporar marcajul acestuia din lume, care reapare după ce te îndepărtezi. Aceasta este o setare locală a jucătorului și nu este sincronizată cu serverul." />
+    <e k="settings_pingDuration_continuous" v="Continuu" />
+    <e k="settings_pingLimit_title" v="Pinguri per jucător" />
+    <e k="settings_pingLimit_tooltip" v="Setează numărul maxim de pinguri active per jucător. Când limita este atinsă, cel mai vechi ping este înlocuit. Numai gazda poate schimba această setare; aceasta este salvată în jocul curent." />
+    <e k="settings_pingVisibility_title" v="Vizibilitatea pingurilor" />
+    <e k="settings_pingVisibility_tooltip" v="Setează dacă pingurile sunt vizibile numai jucătorilor de la aceeași fermă sau jucătorilor de la toate fermele. Numai gazda poate schimba această setare; aceasta este salvată în jocul curent." />
+    <e k="settings_pingVisibility_sameFarm" v="Numai aceeași fermă" />
+    <e k="settings_pingVisibility_allFarms" v="Toate fermele" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Nu a fost găsită nicio suprafață pentru ping" />
+  </elements>
+</l10n>

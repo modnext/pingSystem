@@ -1,0 +1,11 @@
+<texture>
+  <meta>
+    <filename>guiElements.png</filename>
+    <size width="256" height="256"/>
+  </meta>
+  <slices>
+    <slice id="map_pin" uvs="4px 4px 48px 52px"/>
+    <slice id="map_hotspot_pin" uvs="54px 4px 48px 52px"/>
+    <slice id="arrow" uvs="104px 4px 18px 10px"/>
+  </slices>
+</texture>

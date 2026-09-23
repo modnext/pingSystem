@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Ping Oluştur / Kaldır" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Ping Oluştur" />
+    <e k="action_removePing" v="Ping Kaldır" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="Ping Sistemi" />
+    <e k="settings_pingDuration_title" v="Ping Görüntüleme Süresi" />
+    <e k="settings_pingDuration_tooltip" v="Pinglerin senin için ne kadar süre görünür kalacağını belirler. Sürekli modunda bir pinge yaklaşmak, dünyadaki işaretçisini geçici olarak gizler; uzaklaştığında işaretçi yeniden görünür. Bu, oyuncuya özel yerel bir ayardır ve sunucuyla eşitlenmez." />
+    <e k="settings_pingDuration_continuous" v="Sürekli" />
+    <e k="settings_pingLimit_title" v="Oyuncu Başına Ping" />
+    <e k="settings_pingLimit_tooltip" v="Oyuncu başına en fazla kaç etkin ping bulunabileceğini belirler. Sınıra ulaşıldığında en eski ping değiştirilir. Bu ayarı yalnızca sunucu sahibi değiştirebilir; ayar mevcut kayıtlı oyunda saklanır." />
+    <e k="settings_pingVisibility_title" v="Ping Görünürlüğü" />
+    <e k="settings_pingVisibility_tooltip" v="Pinglerin yalnızca aynı çiftlikteki oyunculara mı yoksa tüm çiftliklerdeki oyunculara mı görüneceğini belirler. Bu ayarı yalnızca sunucu sahibi değiştirebilir; ayar mevcut kayıtlı oyunda saklanır." />
+    <e k="settings_pingVisibility_sameFarm" v="Yalnızca aynı çiftlik" />
+    <e k="settings_pingVisibility_allFarms" v="Tüm çiftlikler" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Ping için yüzey bulunamadı" />
+  </elements>
+</l10n>

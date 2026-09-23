@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="Utwórz / Usuń Pingi" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="Utwórz Ping" />
+    <e k="action_removePing" v="Usuń Ping" />
+
+    <!-- Ustawienia pingów -->
+    <e k="settings_pingSystem_title" v="System Pingów" />
+    <e k="settings_pingDuration_title" v="Czas Wyświetlania Pingu" />
+    <e k="settings_pingDuration_tooltip" v="Ustawia, jak długo pingi są widoczne dla Ciebie. W trybie Ciągle podejście chwilowo ukrywa znacznik świata, który pojawia się ponownie po oddaleniu. To ustawienie lokalne gracza i nie jest synchronizowane z serwerem." />
+    <e k="settings_pingDuration_continuous" v="Ciągle" />
+    <e k="settings_pingLimit_title" v="Liczba Pingów Na Gracza" />
+    <e k="settings_pingLimit_tooltip" v="Ustawia maksymalną liczbę aktywnych pingów na gracza. Po osiągnięciu limitu najstarszy ping zostaje zastąpiony. Ustawienie może zmienić tylko host i jest ono zapisane w bieżącym save'ie." />
+    <e k="settings_pingVisibility_title" v="Widoczność Pingów" />
+    <e k="settings_pingVisibility_tooltip" v="Określa, czy pingi widzą tylko gracze tego samego gospodarstwa, czy gracze wszystkich gospodarstw. Ustawienie może zmienić tylko host i jest ono zapisane w bieżącym save'ie." />
+    <e k="settings_pingVisibility_sameFarm" v="Tylko ta sama farma" />
+    <e k="settings_pingVisibility_allFarms" v="Wszystkie farmy" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="Nie znaleziono powierzchni dla pingu" />
+  </elements>
+</l10n>

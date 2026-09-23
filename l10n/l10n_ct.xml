@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+  <elements>
+    <!-- Input Bindings -->
+    <e k="input_PING_SYSTEM_CREATE" v="建立 / 移除標記" />
+
+    <!-- Actions -->
+    <e k="action_createPing" v="建立標記" />
+    <e k="action_removePing" v="移除標記" />
+
+    <!-- Ping settings -->
+    <e k="settings_pingSystem_title" v="標記系統" />
+    <e k="settings_pingDuration_title" v="標記顯示時間" />
+    <e k="settings_pingDuration_tooltip" v="設定標記對你的可見時間。在「持續顯示」模式下，靠近標記會暫時隱藏其世界標記，離開後會再次顯示。這是本機玩家設定，不會與伺服器同步。" />
+    <e k="settings_pingDuration_continuous" v="持續顯示" />
+    <e k="settings_pingLimit_title" v="每位玩家的標記數" />
+    <e k="settings_pingLimit_tooltip" v="設定每位玩家可擁有的最大啟用標記數。達到上限時，最早的標記會被取代。只有主機可以變更此設定；設定會儲存在目前的存檔中。" />
+    <e k="settings_pingVisibility_title" v="標記可見範圍" />
+    <e k="settings_pingVisibility_tooltip" v="設定標記是僅對同一農場的玩家可見，還是對所有農場的玩家可見。只有主機可以變更此設定；設定會儲存在目前的存檔中。" />
+    <e k="settings_pingVisibility_sameFarm" v="僅限同一農場" />
+    <e k="settings_pingVisibility_allFarms" v="所有農場" />
+
+    <!-- Warnings -->
+    <e k="warning_pingNoTarget" v="找不到可放置標記的表面" />
+  </elements>
+</l10n>
