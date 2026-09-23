@@ -498,14 +498,19 @@ end
 -- @param table ping Hotspot data including id and position
 -- @includeCode
 function PingRegistry:createHotspot(ping)
-  if PingHotspot == nil or g_currentMission == nil or g_currentMission.addMapHotspot == nil then
+  local mission = g_currentMission
+  local ingameMap = mission and mission.hud and mission:getIngameMap()
+
+  if PingHotspot == nil or ingameMap == nil or ingameMap.hotspots == nil then
     return
   end
 
   local hotspot = PingHotspot.new(ping.id, ping.farmId, ping.color, ping.ownerUserId)
 
   hotspot:setWorldPosition(ping.x, ping.z)
-  g_currentMission:addMapHotspot(hotspot)
+  table.insert(ingameMap.hotspots, hotspot)
+  ingameMap:resetHotspotSorting()
+  hotspot:addRenderStateChangedListener(ingameMap)
 
   ping.hotspot = hotspot
 end
